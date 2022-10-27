@@ -1255,6 +1255,15 @@ a {
         gap: 10px;
     }
 }
+@media (max-width:363px) {
+    .friends-page .info {
+        display: flex;
+        flex-direction: column;
+    }
+    .friends-page .info > div {
+        margin-top: 20px;
+    }
+}
 .friends-page .contact {
     position: absolute;
     top: 10px;
